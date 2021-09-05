@@ -15,38 +15,17 @@ body {
 }
 
 .header {
-  position: absolute;
-  width: 100%;
   background-color: var(--primary-color);
   display: flex;
   justify-content: center;
   align-items: center;
   color: black;
-  top: 0;
-  left: 0;
-}
-
-.section {
-  position: absolute;
-  width: 100%;
-  top: 20vh;
+  text-align: center;
 }
 
 .footer {
   background-color: var(--primary-color);
   padding: 10px 0px;
-  position: absolute;
-  left: 0;
-  bottom: 0;
-  width: 100%;
-}
-
-.footer p {
-  display: block;
-  text-align: center;
-}
-
-.footer .small {
   display: block;
   text-align: center;
 }
@@ -54,7 +33,7 @@ body {
 #txt-input {
   width: 80%;
   margin: 20px auto;
-  height: 10vh;
+  height: 20vh;
   padding: 10px;
   display: block;
   font-family: 'Carter One', cursive;
@@ -75,7 +54,7 @@ body {
   border: 1px solid black;
   width: 80%;
   margin: 20px auto;
-  height: 10vh;
+  height: 20vh;
   padding: 10px;
   display: block;
   border-radius: 10px;
